@@ -29,7 +29,7 @@ Git alias:
 
 ```ini
 [alias]
-    tdiff = "!git diff --numstat $1 | python3 ~/path/to/git-diff-tree-view.py"
+    tdiff = "!f(){ git diff --numstat \"$@\" | python3 ~/path/to/git-diff-tree-view.py; }; f"
 ```
 
 ## License

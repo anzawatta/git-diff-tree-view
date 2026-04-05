@@ -13,7 +13,7 @@ for line in lines:
             bar = '+' * min(a, 20) + '-' * min(d, 20)
             stat = f"{a + d} {bar}"
         except ValueError:
-            stat = f"{added}/{deleted}"
+            stat = "binary"
         files[Path(path)] = stat
 
 tree = {}
