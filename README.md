@@ -2,7 +2,7 @@
 
 A pipe filter that renders `git diff --numstat` output as a tree. Python stdlib only, zero dependencies.
 
-See [DESIGN.md](./DESIGN.md) for design principles.
+See [PRINCIPLE.md](./PRINCIPLE.md) for design principles.
 
 ## Usage
 
